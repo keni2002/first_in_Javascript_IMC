@@ -1,2 +1,2 @@
-# first_in_Javascript_IMC
+# first time in Javascript BMI
 My first time in JavaScript. About Body Mass Index Calculation
