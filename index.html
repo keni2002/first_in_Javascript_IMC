@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+	<meta charset='utf-8'>
+	<meta name="description" content="bases de Masa Corporal">
+	<title>Bases de Masa Corporal</title>
+	<script src='imc.js'></script>
+	<link rel='stylesheet' href='imc.css'>
+</head>
+<body>
+	<form name="f1">
+		Nombre:<input type="Text" name="cajaNombre" size=10><br>
+		Altura(m):<input type="Text" name="cajaAltura" size=10><br>
+		Peso(kg):<input type="Text" name="cajaPeso" size=10><br>
+		
+		<input type="button" name="btnAceptar" value='Aceptar'>
+		<input type="button" name="btnReset" value="Reset"><br>
+
+		<p id='resultado'>Resultado</p>
+	</form>
+	<br>
+	<div id='divTable'>
+		<table border=1>
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Altura(m)</th>
+					<th>Peso(kg)</th>
+					<th>IMC</th>
+					<th>Descripcion</th>
+					<th>Fecha</th>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+			</tbody>
+		</table>
+	</div>
+	
+
+</body>
+</html>
